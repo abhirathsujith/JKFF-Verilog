@@ -21,7 +21,7 @@ begin
 q<=0;
 qbar<=1;
 end 
-else if (j==1 && k==1)
+else if (j==1 && k==0)
 begin
 q<=1;
 qbar<=0;
@@ -32,5 +32,3 @@ q<=~q;
 qbar<=q;
 end 
 end
-
-endmodule
